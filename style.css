@@ -13,3 +13,18 @@ body{
     display: grid;
     place-items: center;
 }
+img{
+    height: 100%;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+h2{
+    font-weight: bold;
+    line-height:1.3;
+}
+section{
+    display: grid;
+   grid-template-columns: 25% 30% 15% 25%;
+   gap: 15PX;
+}
